@@ -1,0 +1,20 @@
+{
+  "name": "forgesearch",
+  "version": "1.0.0",
+  "description": "an AI-powered answer platform that searches the web to bring you the most accurate and up-to-date information on any topic. Whether you're looking for answers to your everyday questions, researching a project, or simply curious about the world around you, [App Name] has got you covered.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "langchain": "^0.1.36",
+    "openai": "^4.38.5"
+  }
+}
